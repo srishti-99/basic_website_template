@@ -1,6 +1,6 @@
-#basic website templates
+# Basic Website Templates
 
-##Directory structure
+## Directory Structure
 
 There are three folders in this repository 
 
