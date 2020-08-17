@@ -1,0 +1,54 @@
+<html lang="en-UK">
+
+<head>
+HTML Elements Demo
+<title> Demo</title>
+</head>
+
+<link rel="stylesheet" href="stylesheet.css">
+
+
+<script> 
+
+function light(sw) {
+  var pic;
+  if (sw==0)
+  {
+    pic = "pic_bulboff.gif"
+  }
+  else if (sw==1)
+  {
+    pic = "pic_bulbon.gif"
+  }
+  document.getElementById('myImage').src = pic;
+}
+
+</script>
+
+
+<body style="background-color:MediumSeaGreen;">
+
+<h2> Navigation Menu </h2>
+
+<ul>
+  <li><a href="Toggling_Template.html">Toggling</a></li>
+  <li><a href="Tables_and_Quotes.html">Tables and Quotes</a></li>
+  <li><a href="Volunteer_Form_Template.html">Volunteer Forms</a></li>
+  <li><a href="Contact_Form_Template.html">Contact Forms</a></li>
+  <li><a href="General_Form_Template.html">General Forms</a></li>
+  <li><a href="Sidebar_Template.html">Sidebars</a></li>
+</ul>
+
+<h2>Toggling demo</h2>
+
+<img id="myImage" src="pic_bulboff.gif" style="height:142px;width:104px" alt="Lightbulb off">
+<button onclick=light(1)>Light On</button> 
+<button onclick=light(0)>Light Off</button> 
+
+<h2 style="color:blue;">Image with alternate Text:</h2>
+<img src="smiling_srishti.jpg" alt="Srishti is smiling" witdth="104px" height="142px" >
+
+
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-image: 
+  url("IMG_20170726_210956.jpg");
+  padding: 20%;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  z-index: -1;
+}
+
+h3{
+	font-size: 20px;
+}
+
+.column {
+  overflow: auto;
+  float: left;
+  padding: 10px;
+}
+
+.nav {
+  z-index: -1;
+  overflow-x: hidden;
+  width: 200px;
+  height: 100%;
+  left: 0;
+  background-color: #333;
+  font-size: 20;
+  color: white;
+  padding-top: 20px;
+}
+
+.nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin-left: 0;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.column.middle {
+  z-index: 0;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 50%;
+}
+
+.column.form {
+  float: left;
+  width:30%;
+  height: 70%;
+  padding: 15px;
+  border: solid white 2px;
+  font-size: 15px;
+  border-color: white;
+  color: black;
+  text-align: left;
+}
+
